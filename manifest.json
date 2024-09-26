@@ -2,7 +2,7 @@
   "name": "My Meeting Minutes",
   "version": "0.1.0",
   "description": "My Meeting Minutes is the simple extension that note the meeting minutes of your meeting and compile them.",
-  "permissions": ["storage", "tabs", "activeTab", "audioCapture"],
+  "permissions": ["storage", "tabs", "activeTab", "audioCapture", "scripting"],
   "host_permissions": ["https://meet.google.com/*"],
   "background": {
     "service_worker": "background.js"
